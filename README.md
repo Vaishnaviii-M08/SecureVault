@@ -1,7 +1,7 @@
 # SecureVault
 SecureVault is a powerful encryption tool with a modern GUI, designed to encrypt and decrypt files securely using AES-256 encryption. This tool supports various file types, including Word documents (.docx) and text files.
 
-Features
+# Features
 
 AES-256 Encryption: Secure your files with advanced encryption.
 
@@ -13,21 +13,21 @@ Password-Based Encryption: Uses PBKDF2 key derivation for enhanced security.
 
 No File Duplication: Encrypted files replace the original file for security.
 
-Installation
+# Installation
 
-Prerequisites
+# Prerequisites
 
 Make sure you have Python installed. Then, install the required dependencies:
 
 pip install cryptography tk
 
-Running the Application
+# Running the Application
 
 Run the following command:
 
 python securevault.py
 
-Usage
+# Usage
 
 Open the application.
 
@@ -37,7 +37,7 @@ Enter a secure password.
 
 Click Encrypt File to encrypt or Decrypt File to decrypt.
 
-Code Explanation
+# Code Explanation
 
 This application is built using Python with Tkinter for the GUI and the Cryptography library for secure encryption.
 
@@ -49,10 +49,10 @@ File Handling: Reads and writes encrypted/decrypted data to replace the original
 
 GUI: Provides an intuitive interface to select files, input passwords, and perform encryption/decryption.
 
-Contributing
+# Contributing
 
 Feel free to contribute by submitting issues or pull requests.
 
-License
+# License
 
 This project is licensed under the MIT License.
